@@ -1,0 +1,17 @@
+.container {
+  display: none;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #161d2f;
+  padding: 20px;
+}
+
+.link_container {
+  display: flex;
+  gap: 30px;
+}
+@media (width<=500px) {
+  .container {
+    display: flex;
+  }
+}

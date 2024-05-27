@@ -1,0 +1,66 @@
+.button {
+  font-family: "Nunito";
+  height: 48px;
+  align-self: center;
+  width: 279px;
+  background-color: #fc4747;
+  border-radius: 6px;
+  width: 279px;
+  height: 48px;
+  flex-shrink: 0;
+  color: #fff;
+  text-align: center;
+
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  cursor: pointer;
+  border: transparent;
+}
+
+.button:hover {
+  background-color: #ffff;
+  color: #161d2f;
+  transition: 500ms;
+}
+
+.buttonLoading {
+  height: 48px;
+  align-self: center;
+  width: 279px;
+  background-color: #fc4747;
+  border-radius: 6px;
+  width: 279px;
+  height: 48px;
+  flex-shrink: 0;
+  color: #fff;
+  text-align: center;
+  font-family: Outfit;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+.buttonLoading {
+  height: 48px;
+  align-self: center;
+  width: 279px;
+  background-color: #fc4747;
+  border-radius: 6px;
+  width: 279px;
+  height: 48px;
+  flex-shrink: 0;
+  color: #fff;
+  text-align: center;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  cursor: pointer;
+  opacity: 0.5;
+  font-family: "Nunito";
+}

@@ -1,0 +1,44 @@
+.date {
+  width: 279px;
+  height: 37px;
+  background-color: transparent;
+  align-self: center;
+  color: #ffffff;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  outline: none;
+  border: transparent;
+  border-bottom: 1px solid rgba(90, 105, 143, 1);
+}
+
+.error {
+  color: red;
+  font-size: 13px;
+}
+.date:focus {
+  transform: 500ms;
+  border-bottom: 1px solid #ffff;
+}
+.date::placeholder {
+  color: #ffffff;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.date_container {
+  display: flex;
+  align-self: center;
+  flex-direction: column;
+  color: #ffffff;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.date_container label {
+  color: #ffffff;
+  opacity: 0.5;
+}
